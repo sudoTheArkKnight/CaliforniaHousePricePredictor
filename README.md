@@ -1,93 +1,77 @@
-California House Price Predictor
-Project Overview
+# California Housing Prices Prediction
 
-The California House Price Predictor project aims to build a machine learning model to predict house prices in California districts. The project uses a dataset containing various features such as population, median income, and housing median age to make predictions. The goal is to develop a regression model that can estimate house prices accurately based on these features.
-Table of Contents
+## Project Overview
+This project focuses on predicting housing prices in California districts using machine learning. The goal is to build a regression model that can estimate the median house value based on various features. The dataset used for this project is the [California Housing Prices dataset](https://www.kaggle.com/camnugent/california-housing-prices) from Kaggle.
 
-    Project Overview
-    Data Exploration
-    Data Preprocessing
-    Train-Test Split
-    Building and Training the Model
-    Model Evaluation
-    Summary and Insights
-    Visualization
-    Model Refinement
-    Next Steps
-    Conclusion
-    Appendices
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Dataset](#dataset)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Data Exploration](#data-exploration)
+6. [Data Preprocessing](#data-preprocessing)
+7. [Model Building](#model-building)
+8. [Model Evaluation](#model-evaluation)
+9. [Results](#results)
+10. [Contributing](#contributing)
+11. [License](#license)
 
-Data Exploration
+## Dataset
+- **Dataset Source:** [California Housing Prices](https://www.kaggle.com/camnugent/california-housing-prices) on Kaggle
+- **Description:** This dataset contains housing-related information for various districts in California. It includes features like population, median income, housing median age, and the target variable, median house value.
+### Understating the dataset
+![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/0c3c127b-e057-467a-ad0d-71270a20ce4d)
+![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/3145441b-73c1-4fee-9ccb-4d5985d7df3b)
+![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/01bd003d-f004-46a9-bf71-d6db87c5672c)
+![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/ceffa6eb-e218-49fb-aa58-6e6d04ccd333)
 
-The dataset used in this project contains information about housing prices in California districts. Key aspects of data exploration include:
 
-    Dataset Overview: The dataset comprises X rows and Y columns.
-    Summary Statistics: Statistical summary of numeric features.
-    Visualizations: Histograms, scatter plots, and correlation matrices.
-    Insights: Observations about the data, such as feature distributions and potential correlations.
+## Installation
+1. Clone this repository to your local machine using `git clone`.
+2. Navigate to the project directory.
+3. Install the required Python packages using `pip install -r requirements.txt`.
 
-Data Preprocessing
+## Usage
+1. Launch Jupyter Notebook: Run `jupyter notebook` in the project directory.
+2. Open and run the `Predictor.ipynb` notebook to explore the project.
 
-Data preprocessing involved the following steps:
+## Data Exploration
+- Explore the dataset using Python and Jupyter Notebook.
+- Generate histograms, scatter plots, and correlation matrices to gain insights into the data.
+### Here are some graphs to help you gain a better understanding
+*This is a heat map, showing the corelation each columns has with each other*
+![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/1e797a0b-dd07-430c-b8a9-770f3b0806ed)
+*This is the histogram (similar to the one shown earlier) showing the data distribution*
+![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/b693279e-753e-4435-b057-81a39fc3c455)
+*This is a scatter plot, makes it simple to spot outliers in the dataset*
+![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/7c58eb93-7764-42cd-98ba-97649d1c594f)
 
-    Handling Missing Data: Missing values were imputed using appropriate methods.
-    Feature Engineering: The dataset was enhanced by creating new features and transformations.
-    Data Scaling: Features were standardized to ensure consistent scaling.
 
-Train-Test Split
+## Data Preprocessing
+- Handle missing data using imputation.
+- Perform feature engineering to create new informative features.
+- Scale the data to prepare it for modeling.
 
-The data was divided into training and testing sets. An 80-20 split was used, with a random seed for reproducibility. The resulting datasets are as follows:
+## Model Building
+- Build a Linear Regression model using scikit-learn.
+- Train the model on the training dataset.
+- Evaluate the model's performance using various metrics.
 
-    Training Data (X_train, y_train)
-    Testing Data (X_test, y_test)
+## Model Evaluation
+- Calculate evaluation metrics, including Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
+- Visualize model predictions and compare them to actual values.
 
-Building and Training the Model
+## Results
+- Summarize key findings and insights from the project.
+- Discuss the model's performance and any improvements achieved through model refinement.
+- The resultant was calculated based on the following parameters
+Mean Absolute Error: 0.4367338817223555
+Mean Squared Error: 0.3603952607354783
+Root Mean Squared Error: 0.6003292935843446
+- this values are very average for a model of this type, to achive more suposticated results i will be refining and rewriting parts of the code to ensure maxixmum accuracy
 
-The Linear Regression model was selected for this project. The following steps were performed:
+## Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
-    Imported the LinearRegression class from scikit-learn.
-    Created an instance of the Linear Regression model.
-    Fitted the model to the training data.
-
-Model Evaluation
-
-The model's performance was evaluated as follows:
-
-    Predictions were made on the test data.
-    Evaluation metrics were calculated, including Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
-    The model's performance indicated [results or insights].
-
-Summary and Insights
-
-Key findings and insights from the project include:
-
-    [List notable observations and insights from data exploration and model evaluation].
-    [Highlight any significant patterns or relationships identified].
-
-Visualization
-
-Visualizations were created to complement the project:
-
-    [Include visualizations such as histograms, scatter plots, and model performance graphs].
-    [Provide captions and explanations for each visualization].
-
-Model Refinement
-
-The model was refined by experimenting with different features and hyperparameters. The results showed [details of improvements or changes].
-Next Steps
-
-Potential next steps for the project include:
-
-    Further refining the model for increased accuracy.
-    Investigating additional features or external data sources.
-    Exploring other regression techniques and models.
-
-Conclusion
-
-In conclusion, the California House Price Predictor project has made significant progress in building a regression model to estimate house prices based on various features. Key takeaways and lessons learned include [summarize key insights].
-Appendices
-
-[Include any supplementary materials, code snippets, or additional details here, if necessary].
-Acknowledgments
-
-We acknowledge the use of external resources, libraries, and datasets in the project.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
