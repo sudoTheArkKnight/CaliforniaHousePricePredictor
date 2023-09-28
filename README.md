@@ -39,11 +39,11 @@ This project focuses on predicting housing prices in California districts using 
 - Explore the dataset using Python and Jupyter Notebook.
 - Generate histograms, scatter plots, and correlation matrices to gain insights into the data.
 ### Here are some graphs to help you gain a better understanding
-*This is a heat map, showing the corelation each columns has with each other*
+\n*This is a heat map, showing the corelation each columns has with each other*
 ![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/1e797a0b-dd07-430c-b8a9-770f3b0806ed)
-*This is the histogram (similar to the one shown earlier) showing the data distribution*
+\n*This is the histogram (similar to the one shown earlier) showing the data distribution*
 ![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/b693279e-753e-4435-b057-81a39fc3c455)
-*This is a scatter plot, makes it simple to spot outliers in the dataset*
+\n*This is a scatter plot, makes it simple to spot outliers in the dataset*
 ![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/7c58eb93-7764-42cd-98ba-97649d1c594f)
 
 
@@ -61,11 +61,11 @@ This project focuses on predicting housing prices in California districts using 
 - Calculate evaluation metrics, including Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
 - Visualize model predictions and compare them to actual values.
 ### here are a few graphs that will help you understand the performance of the model.
-*Scatter plot*
+\n*Scatter plot*
 ![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/05080eff-cbab-4524-a8e7-c233560187fc)
-*Residual plot*
+\n*Residual plot*
 ![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/838f8a2f-6f5e-4911-8091-3d65bc77a6aa)
-*Feature importance plot*
+\n*Feature importance plot*
 ![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/5f0d2f85-c9f7-49cc-9f9a-3c36d3f6365a)
 
 
