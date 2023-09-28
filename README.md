@@ -60,6 +60,14 @@ This project focuses on predicting housing prices in California districts using 
 ## Model Evaluation
 - Calculate evaluation metrics, including Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
 - Visualize model predictions and compare them to actual values.
+### here are a few graphs that will help you understand the performance of the model.
+*Scatter plot*
+![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/05080eff-cbab-4524-a8e7-c233560187fc)
+*Residual plot*
+![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/838f8a2f-6f5e-4911-8091-3d65bc77a6aa)
+*Feature importance plot*
+![image](https://github.com/The-Ark-Knight/CaliforniaHousePricePredictor/assets/90926369/5f0d2f85-c9f7-49cc-9f9a-3c36d3f6365a)
+
 
 ## Results
 - Summarize key findings and insights from the project.
